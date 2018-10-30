@@ -1,0 +1,30 @@
+PODS:
+  - BEMCheckBox (1.4.1)
+  - OnOffButton (1.5)
+  - Realm (3.10.0):
+    - Realm/Headers (= 3.10.0)
+  - Realm/Headers (3.10.0)
+  - RealmSwift (3.10.0):
+    - Realm (= 3.10.0)
+
+DEPENDENCIES:
+  - BEMCheckBox
+  - OnOffButton
+  - RealmSwift
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - BEMCheckBox
+    - OnOffButton
+    - Realm
+    - RealmSwift
+
+SPEC CHECKSUMS:
+  BEMCheckBox: 5ba6e37ade3d3657b36caecc35c8b75c6c2b1a4e
+  OnOffButton: 0753a41630dc5c7ecd7d996a4154a1c79f33c99f
+  Realm: 85ab9e4f779d66f6e9ffeb118dc25b7f130c96ac
+  RealmSwift: 69121c8b86d0ae005fb779efdb10e606732e1c74
+
+PODFILE CHECKSUM: 6fc9f775731a83e23c537796852c90074d6385dc
+
+COCOAPODS: 1.5.3
