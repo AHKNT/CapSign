@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		0D963293692466C9C897C13D /* Pods_testingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 066CCB1196948EDB3836730E /* Pods_testingUITests.framework */; };
 		7F04B0FF215C863A00BEB7A3 /* DatasetRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F04B0FE215C863A00BEB7A3 /* DatasetRealm.swift */; };
-		7F83E116216DD06E00D3B892 /* imageTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F83E115216DD06E00D3B892 /* imageTestViewController.swift */; };
+		7F83E116216DD06E00D3B892 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F83E115216DD06E00D3B892 /* CameraViewController.swift */; };
 		7F83E119216DD76500D3B892 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FBA6AA72159FB3400E376C9 /* Realm.framework */; };
 		7F83E11B216DD76500D3B892 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FBA6AA92159FB3400E376C9 /* RealmSwift.framework */; };
 		7F83E11D216DD76500D3B892 /* Pods_testing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7DD04B32DD20D36AC8BCC2B /* Pods_testing.framework */; };
@@ -25,6 +25,9 @@
 		7FBBDF7721537B52007F015F /* pushAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBBDF7621537B52007F015F /* pushAction.swift */; };
 		7FF62D3621549AF300965D34 /* ConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF62D3521549AF300965D34 /* ConfigViewController.swift */; };
 		7FFC3D182166EE47005C4C58 /* voiceConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFC3D172166EE47005C4C58 /* voiceConfig.swift */; };
+		E1CA1E72218C038A008BC56D /* CameraUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CA1E71218C038A008BC56D /* CameraUtil.swift */; };
+		E1CA1E74218C03DC008BC56D /* haarcascade_frontalface_alt.xml in Resources */ = {isa = PBXBuildFile; fileRef = E1CA1E73218C03DB008BC56D /* haarcascade_frontalface_alt.xml */; };
+		E1CA1E78218C0404008BC56D /* OpenCV.mm in Sources */ = {isa = PBXBuildFile; fileRef = E1CA1E77218C0404008BC56D /* OpenCV.mm */; };
 		F7A312DCAA8E0231B80A156B /* Pods_testingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36BEEDF8FA84A009CDDA065F /* Pods_testingTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,7 +52,7 @@
 		066CCB1196948EDB3836730E /* Pods_testingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		36BEEDF8FA84A009CDDA065F /* Pods_testingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F04B0FE215C863A00BEB7A3 /* DatasetRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatasetRealm.swift; sourceTree = "<group>"; };
-		7F83E115216DD06E00D3B892 /* imageTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageTestViewController.swift; sourceTree = "<group>"; };
+		7F83E115216DD06E00D3B892 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		7F8F89262166F3B900A8D36A /* OnOffButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnOffButton.swift; sourceTree = "<group>"; };
 		7FBA6AA72159FB3400E376C9 /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FBA6AA92159FB3400E376C9 /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,6 +79,11 @@
 		BE1D466456BD14A32E960DDD /* Pods-testingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testingUITests/Pods-testingUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		CA8A40608870D5DA212FCA52 /* Pods-testing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testing.release.xcconfig"; path = "Pods/Target Support Files/Pods-testing/Pods-testing.release.xcconfig"; sourceTree = "<group>"; };
 		D7D3E24EF788638A3495EB31 /* Pods-testingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testingTests/Pods-testingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E1CA1E71218C038A008BC56D /* CameraUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraUtil.swift; sourceTree = "<group>"; };
+		E1CA1E73218C03DB008BC56D /* haarcascade_frontalface_alt.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_frontalface_alt.xml; sourceTree = "<group>"; };
+		E1CA1E75218C03E8008BC56D /* OpenCV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenCV.h; sourceTree = "<group>"; };
+		E1CA1E76218C0404008BC56D /* testing-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "testing-Bridging-Header.h"; sourceTree = "<group>"; };
+		E1CA1E77218C0404008BC56D /* OpenCV.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenCV.mm; sourceTree = "<group>"; };
 		E7DD04B32DD20D36AC8BCC2B /* Pods_testing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB548F5211C55CB5D8ACE0C4 /* Pods-testingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-testingTests/Pods-testingTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -148,9 +156,12 @@
 		7FBBDF44215379A8007F015F /* testing */ = {
 			isa = PBXGroup;
 			children = (
+				E1CA1E73218C03DB008BC56D /* haarcascade_frontalface_alt.xml */,
 				7FFC3D1621649573005C4C58 /* pushAction */,
 				7FBBDF45215379A8007F015F /* AppDelegate.swift */,
 				7FBBDF47215379A8007F015F /* ViewController.swift */,
+				E1CA1E71218C038A008BC56D /* CameraUtil.swift */,
+				7F83E115216DD06E00D3B892 /* CameraViewController.swift */,
 				7FBBDF49215379A8007F015F /* Main.storyboard */,
 				7FBBDF4F215379B4007F015F /* Assets.xcassets */,
 				7FBBDF51215379B4007F015F /* LaunchScreen.storyboard */,
@@ -159,7 +170,9 @@
 				7FF62D3521549AF300965D34 /* ConfigViewController.swift */,
 				7F04B0FE215C863A00BEB7A3 /* DatasetRealm.swift */,
 				7F8F89262166F3B900A8D36A /* OnOffButton.swift */,
-				7F83E115216DD06E00D3B892 /* imageTestViewController.swift */,
+				E1CA1E75218C03E8008BC56D /* OpenCV.h */,
+				E1CA1E77218C0404008BC56D /* OpenCV.mm */,
+				E1CA1E76218C0404008BC56D /* testing-Bridging-Header.h */,
 			);
 			path = testing;
 			sourceTree = "<group>";
@@ -276,6 +289,7 @@
 				TargetAttributes = {
 					7FBBDF41215379A8007F015F = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 					};
 					7FBBDF58215379B5007F015F = {
 						CreatedOnToolsVersion = 10.0;
@@ -314,6 +328,7 @@
 			files = (
 				7FBBDF53215379B4007F015F /* LaunchScreen.storyboard in Resources */,
 				7FBBDF50215379B4007F015F /* Assets.xcassets in Resources */,
+				E1CA1E74218C03DC008BC56D /* haarcascade_frontalface_alt.xml in Resources */,
 				7FBBDF4B215379A8007F015F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,8 +453,10 @@
 				7FBBDF48215379A8007F015F /* ViewController.swift in Sources */,
 				7FBBDF7721537B52007F015F /* pushAction.swift in Sources */,
 				7FBBDF46215379A8007F015F /* AppDelegate.swift in Sources */,
+				E1CA1E72218C038A008BC56D /* CameraUtil.swift in Sources */,
 				7F04B0FF215C863A00BEB7A3 /* DatasetRealm.swift in Sources */,
-				7F83E116216DD06E00D3B892 /* imageTestViewController.swift in Sources */,
+				E1CA1E78218C0404008BC56D /* OpenCV.mm in Sources */,
+				7F83E116216DD06E00D3B892 /* CameraViewController.swift in Sources */,
 				7FFC3D182166EE47005C4C58 /* voiceConfig.swift in Sources */,
 				7FF62D3621549AF300965D34 /* ConfigViewController.swift in Sources */,
 				7FBBDF4E215379A8007F015F /* testing.xcdatamodeld in Sources */,
@@ -618,8 +635,9 @@
 			baseConfigurationReference = A92A105B2D342BBE7AAB95A5 /* Pods-testing.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = LD673FK6EZ;
+				DEVELOPMENT_TEAM = D7N46X9CJF;
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = testing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -627,8 +645,10 @@
 					"@executable_path/Frameworks",
 				);
 				LIBRARY_SEARCH_PATHS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.ac.asojuku.st.1501028.testing;
+				PRODUCT_BUNDLE_IDENTIFIER = merondowski.test1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "testing/testing-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -639,8 +659,9 @@
 			baseConfigurationReference = CA8A40608870D5DA212FCA52 /* Pods-testing.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = LD673FK6EZ;
+				DEVELOPMENT_TEAM = D7N46X9CJF;
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = testing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -648,8 +669,9 @@
 					"@executable_path/Frameworks",
 				);
 				LIBRARY_SEARCH_PATHS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.ac.asojuku.st.1501028.testing;
+				PRODUCT_BUNDLE_IDENTIFIER = merondowski.test1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "testing/testing-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
